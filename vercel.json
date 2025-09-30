@@ -1,0 +1,9 @@
+[
+  {
+    "source": "/(.*)",
+    "destination": "/index.html",
+    "has": [],
+    "missing": [],
+    "status": 200
+  }
+]
