@@ -1,9 +1,10 @@
-[
-  {
-    "source": "/(.*)",
-    "destination": "/index.html",
-    "has": [],
-    "missing": [],
-    "status": 200
-  }
-]
+{
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
